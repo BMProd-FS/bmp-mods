@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "mods": [
+    {"id":"mud-system-physics","name":"Mud System Physics","game":"FS25","category":"Геймплей","summary":"Физика грязи и влажной почвы для техники.","description":"Пример карточки. Добавьте актуальное описание мода, обложку и ссылки на версии через раздел управления.","cover":"","screenshots":[],"published":true,"demo":true,"versions":[]},
+    {"id":"chainsaw-consumables","name":"Расходники для бензопилы","game":"FS25","category":"Инструменты","summary":"Топливная смесь, масло цепи, заточка и обслуживание пилы.","description":"Пример карточки. Перед публикацией заполните описание и добавьте выпущенную версию.","cover":"","screenshots":[],"published":true,"demo":true,"versions":[]},
+    {"id":"players-body","name":"Тело игрока","game":"FS25","category":"Геймплей","summary":"Видимое тело игрока при игре от первого лица.","description":"Пример карточки. Добавьте изображения, описание и ссылки скачивания.","cover":"","screenshots":[],"published":true,"demo":true,"versions":[]}
+  ]
+}
