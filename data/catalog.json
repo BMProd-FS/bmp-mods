@@ -1433,6 +1433,17 @@
       "demo": false,
       "versions": [
         {
+          "version": "1.0.3.0",
+          "date": "2026-10-10",
+          "changes": "- Различные мелкие правки\n\n- Переделан hud",
+          "links": [
+            {
+              "label": "modsfire.com",
+              "url": "https://modsfire.com/M9I0pFPcEbieNka"
+            }
+          ]
+        },
+        {
           "version": "1.0.2.0",
           "date": "2026-06-12",
           "changes": "- Добавлена оптимизация hud гаража. ФПС стал стабильнее при подходе к гаражу.",
@@ -2742,6 +2753,17 @@
       "published": true,
       "demo": false,
       "versions": [
+        {
+          "version": "1.3.5.0",
+          "date": "2026-10-10",
+          "changes": "- Все предметы одежды внутри аддона были убраны, в отдельный пак. (будет загружен позже)\n\n\n\nНужно это для того чтобы люди которые не хотели видеть эти предметы одежды, были вынуждены все равно их наблюдать. Теперь мод стал легче и каждый волен выбирать себе пак или предмет одежды из модов по душе.",
+          "links": [
+            {
+              "label": "modsfire.com",
+              "url": "https://modsfire.com/PcPmc1og81T402N"
+            }
+          ]
+        },
         {
           "version": "1.3.4.0",
           "date": "2026-03-18",
@@ -4684,6 +4706,80 @@
       "sourceCategories": [
         "Скрипты"
       ]
+    },
+    {
+      "id": "kingmods-82927",
+      "name": "Набор одежды для гардероба BMP",
+      "game": "FS25",
+      "category": "Гардероб",
+      "summary": "Набор одежды для гардероба BMP для Farming Simulator 25.",
+      "description": "Полный пак одежды",
+      "cover": "assets/covers/kingmods-82927-sync.webp",
+      "sourceCover": "https://www.kingmods.net/uploads/fs25/mods/wardrobe-clothing-pack-bmp-fs25-a2Zdb.jpg",
+      "screenshots": [
+        "https://www.kingmods.net/uploads/fs25/mods/wardrobe-clothing-pack-bmp-fs25-a2Zdb.jpg",
+        "https://www.kingmods.net/uploads/fs25/mods/wardrobe-clothing-pack-bmp-fs25-GeuqK.jpg",
+        "https://www.kingmods.net/uploads/fs25/mods/wardrobe-clothing-pack-bmp-fs25-mk5PT.jpg"
+      ],
+      "published": true,
+      "demo": false,
+      "versions": [
+        {
+          "version": "1.0.0.0",
+          "date": "2026-10-10",
+          "changes": "",
+          "links": [
+            {
+              "label": "modsfire.com",
+              "url": "https://modsfire.com/o4SNBJ3f4F6vWt7"
+            }
+          ]
+        }
+      ],
+      "sourceUrl": "https://www.kingmods.net/ru/fs25/mods/82927/nabor-odezhdy-dlya-garderoba-bmp",
+      "credits": [
+        "BMProd"
+      ],
+      "sourceCategories": [
+        "Гардероб"
+      ],
+      "importedAt": "2026-10-10"
+    },
+    {
+      "id": "kingmods-82916",
+      "name": "FS Icon Studio",
+      "game": "FS25",
+      "category": "Другие моды",
+      "summary": "первая публичная версия! Ваши замечания и пожелания оставляйте в комментариях!",
+      "description": "Инструмент для создания иконок для ваших модов.\n\n\n\nпервая публичная версия! Ваши замечания и пожелания оставляйте в комментариях!",
+      "cover": "assets/covers/kingmods-82916-sync.webp",
+      "sourceCover": "https://www.kingmods.net/uploads/fs25/mods/fs-icon-studio-fs25-Ppp3W.jpg",
+      "screenshots": [
+        "https://www.kingmods.net/uploads/fs25/mods/fs-icon-studio-fs25-Ppp3W.jpg"
+      ],
+      "published": true,
+      "demo": false,
+      "versions": [
+        {
+          "version": "1.0.0.0",
+          "date": "2026-10-09",
+          "changes": "",
+          "links": [
+            {
+              "label": "modsfire.com",
+              "url": "https://modsfire.com/9Tja2B8wi9ZM2WG"
+            }
+          ]
+        }
+      ],
+      "sourceUrl": "https://www.kingmods.net/ru/fs25/mods/82916/fs-icon-studio",
+      "credits": [
+        "BMProd"
+      ],
+      "sourceCategories": [
+        "Другие моды"
+      ],
+      "importedAt": "2026-10-10"
     }
   ]
 }
