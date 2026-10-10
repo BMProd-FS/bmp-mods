@@ -43,3 +43,13 @@ footer{border-color:#244055;color:#8fa8bd;padding:25px 0}
 
 /* Full-width catalog controls on phones: prevent flex shrinking. */
 @media(max-width:700px){.tools{display:grid;grid-template-columns:minmax(0,1fr);gap:10px}.tools input[type=search],.tools select{width:100%;max-width:100%;min-width:0;flex:none;min-height:48px;font-size:16px;padding:12px 15px}}
+
+/* Compact sharing action beside the latest-version download. */
+.card-download{position:relative;align-items:center;gap:12px;padding-left:66px;padding-right:66px;min-height:66px}
+.share-button{position:absolute;right:18px;top:0;display:inline-flex;align-items:center;justify-content:center;width:40px;height:44px;padding:0;border:1px solid #35526a;border-radius:8px;background:#102335;color:#93dff1}
+.share-button:hover{border-color:var(--accent);color:#e5faff;background:#173448}
+.share-button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.share-button:disabled{opacity:.5;cursor:wait}
+.copy-notice{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);z-index:1000;max-width:calc(100vw - 32px);width:max-content;padding:12px 20px;border:1px solid #408ca4;border-radius:10px;background:#102b3d;color:#edfaff;box-shadow:0 8px 30px #0008;font-size:14px;text-align:center;pointer-events:none}
+.copy-notice[hidden]{display:none}
+@media(max-width:360px){.card-download .btn{min-width:0;width:100%}.share-button{right:14px}}
