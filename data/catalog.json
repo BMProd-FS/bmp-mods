@@ -4781,17 +4781,5 @@
       ],
       "importedAt": "2026-10-10"
     }
-  ],
-  "news": [
-    {
-      "id": "live-farmer-update-preview",
-      "title": "Скоро обновление Live Farmer",
-      "date": "2026-10-11",
-      "text": "Готовлю обновление Live Farmer! Небольшой кадр из разработки — скоро расскажу подробнее. Следите за новостями.",
-      "images": [
-        "assets/news/live-farmer-preview.webp"
-      ],
-      "published": true
-    }
   ]
 }
