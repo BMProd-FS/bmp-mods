@@ -66,3 +66,15 @@ footer{border-color:#244055;color:#8fa8bd;padding:25px 0}
 .service-body .btn{margin-top:auto;align-self:stretch;justify-content:center;text-align:center}
 @media(max-width:900px){.services-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.services-grid{grid-template-columns:1fr}.service-body{padding:18px}nav a{font-size:clamp(11px,3.4vw,13px);padding-inline:4px}}
+
+.service-dialog{box-sizing:border-box;width:min(560px,calc(100% - 24px));max-height:calc(100dvh - 24px);overflow:auto;position:fixed;padding:24px;background:#102335;color:#e5f3fb;border:1px solid #35526a;border-radius:14px;box-shadow:0 20px 70px #0009}
+.service-dialog::backdrop{background:#050a12cc}
+.service-dialog h2{margin:0 42px 6px 0}.service-choice{color:#93dff1;margin:0 0 16px}
+.service-dialog .muted{font-size:14px;margin:8px 0}
+.service-close{position:absolute;right:14px;top:14px;min-width:36px;min-height:36px;border:1px solid #35526a;border-radius:8px;background:#173448;color:inherit;font-size:22px;cursor:pointer}
+.service-contact-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:10px 0 22px}
+.service-contact-links .btn{padding:10px 5px;text-align:center;font-size:14px}
+.service-dialog label{font-weight:700}
+.service-dialog textarea{box-sizing:border-box;width:100%;padding:12px;background:#081622;color:inherit;border:1px solid #35526a;border-radius:8px;font:inherit;font-size:14px;line-height:1.5;resize:vertical}
+.service-copy{margin-top:12px}.service-copy-status{min-height:20px;margin:8px 0 0;color:#93dff1;font-size:13px}
+@media(max-width:420px){.service-dialog{padding:16px}.service-contact-links .btn{font-size:12px}}
